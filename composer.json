@@ -19,8 +19,8 @@
   ],
   "autoload": {
     "psr-4": {
-      "Bridge\\Migrate\\Modules": "src/",
-      "Bridge\\Migrate\\Controllers": "src/controllers/"
+      "Bridge\\Migrate\\Modules\\": "src/",
+      "Bridge\\Migrate\\Controllers\\": "src/controllers/"
     }
   },
   "minimum-stability": "stable",
