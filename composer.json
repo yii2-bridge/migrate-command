@@ -1,0 +1,30 @@
+{
+  "name": "yii2-bridge/migrate-command",
+  "description": "Run migrate for Bridge",
+  "type": "yii2-extension",
+  "keywords": [
+    "yii2",
+    "bridge",
+    "migrate",
+    "console",
+    "command"
+  ],
+  "license": "BSD-3-Clause",
+  "authors": [
+    {
+      "name": "Altynbek Kazezov",
+      "email": "altinbek__97@mail.ru",
+      "role": "Developer"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "Bridge\\Migrate\\Modules": "src/",
+      "Bridge\\Migrate\\Controllers": "src/controllers/"
+    }
+  },
+  "minimum-stability": "stable",
+  "require-dev": {
+    "phpunit/phpunit": "^5.4"
+  }
+}
