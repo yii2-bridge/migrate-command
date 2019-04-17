@@ -24,6 +24,9 @@
     }
   },
   "minimum-stability": "stable",
+  "require": {
+    "yii2-bridge/core": "^0.2.5"
+  },
   "require-dev": {
     "phpunit/phpunit": "^5.4"
   }
