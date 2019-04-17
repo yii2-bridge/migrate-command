@@ -10,10 +10,10 @@ The preferred way to install this extension is through [Composer](http://getcomp
 
 Either run: 
 ```
-composer require yii2-bridge/migrate-command:^0.1
+composer require yii2-bridge/migrate-command:^0.1.1
 ```
 
-or add `"yii2-bridge/migrate-command": "^0.1"` to the require section of your `composer.json`
+or add `"yii2-bridge/migrate-command": "^0.1.1"` to the require section of your `composer.json`
 
 ### Using
 
